@@ -1,6 +1,7 @@
 /* responsive style with media quereis */
 /* mobile device responsive */
 @media screen and (max-width:576px) {
+    /* navbar responsive in mobile device */
     .container{
         width: 100%;
     }
@@ -21,9 +22,28 @@
     .menu{
         flex-direction: column;
     }
+    /* banner section responsive in mobile device */
+    .banner-wrapper{
+        flex-direction: column;
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+    .banner-content-inner{
+        width: 100%;
+    }
+    .banner-sub-title{
+        font-size: 2rem;
+    }
+    .banner-title{
+        font-size: 5rem;
+    }
+    .banner-img-inner{
+        width: 100%;
+    }
 }
 /* tablet device responsive  */
 @media screen and (min-width:576px) and (max-width:992px) {
+    /* navbar responsive in tablet device */
     .container{
         width: 100%;
     }

@@ -13,6 +13,28 @@ section{
     width: 1140px;
     margin: 0 auto;
 }
+.primary-btn{
+    width: 185px;
+    height: 85px;
+    border-radius: 45px;
+    background-color: #FF42A5;
+    border: 0;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.secondary-btn{
+    width: 185px;
+    height: 85px;
+    border-radius: 45px;
+    background-color: #4EC5F7;
+    border: 0;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
 /* header style */
 /* nav style */
 .nav{
@@ -71,4 +93,69 @@ section{
 }
 #tiktok-icon{
     font-size: 2rem;
+}
+/* banner section style */
+.banner{
+    background-image: url(../images/Group\ 14.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.banner-wrapper{
+    display: flex;
+    gap: 4.25rem;
+    align-items: center;
+    padding: 1rem 1rem;
+}
+.banner-content-inner{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 16px;
+}
+.banner-sub-title{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner-title{
+    font-size: 6rem;
+    margin-bottom: 1.5rem;
+    background-color: #F948B2;
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+.banner-icon li{
+    list-style: none;
+    margin-bottom: 1rem;
+}
+.banner-icon li a{
+    text-decoration: none;
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.banner-icon li a i{
+    margin-right: 0.5rem;
+    color: #F948B2;
+}
+#primary-btn{
+    margin-right: 1.5rem;
+}
+.banner-btn-inner{
+    margin-top: 2rem;
+}
+.banner-img-inner{
+    width: 50%;
+}
+.banner-img-inner img{
+    width: 100%;
+    height: 100%;
 }
