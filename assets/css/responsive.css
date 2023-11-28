@@ -23,21 +23,43 @@
         flex-direction: column;
     }
     /* banner section responsive in mobile device */
+    .banner{
+        background-image: none;
+        width: 100%;
+    }
     .banner-wrapper{
         flex-direction: column;
         flex-direction: column-reverse;
-        gap: 0;
+        gap: 0px;
     }
     .banner-content-inner{
         width: 100%;
+        margin-top: 3rem;
+        background-image: url(../images/Group\ 14.png);
+        background-size: contain;
+        background-repeat: no-repeat;
     }
     .banner-sub-title{
         font-size: 2rem;
     }
     .banner-title{
-        font-size: 5rem;
+        font-size: 4.5rem;
+    }
+    .primary-btn{
+        width: 129px;
+        height: 60px;
+    }
+    .secondary-btn{
+        width: 129px;
+        height: 60px;
+    }
+    .banner-icon li a{
+        font-size: 1rem;
     }
     .banner-img-inner{
+        width: 100%;
+    }
+    .banner-img-inner img{
         width: 100%;
     }
 }
