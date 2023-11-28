@@ -23,6 +23,7 @@ section{
     font-size: 1.25rem;
     font-weight: 600;
     text-transform: uppercase;
+    cursor: pointer;
 }
 .secondary-btn{
     width: 185px;
@@ -34,6 +35,7 @@ section{
     font-size: 1.25rem;
     font-weight: 600;
     text-transform: uppercase;
+    cursor: pointer;
 }
 /* header style */
 /* nav style */
@@ -154,4 +156,64 @@ section{
 .banner-img-inner img{
     width: 100%;
     height: 100%;
+}
+/* we are gamer section style */
+.we-are-gamer{
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 0;
+}
+.we-are-gamer-wrapper{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.we-are-gamer-img-inner{
+    width: 60%;
+}
+.we-are-gamer-img-inner img{
+    width: 100%;
+}
+.we-are-gamer-content-inner{
+    width: 40%;
+}
+.we-are-gamer-title{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: right;
+    background-color: #F948B2;
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin-bottom: 1.5rem;
+}
+.we-are-gamer-description{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
+    line-height: 30px;
+    margin-bottom: 2rem;
+}
+.know-more-btn-inner{
+    display: flex;
+    justify-content: right;
+    margin-bottom: 1.5rem;
+}
+.we-are-gamer-purpose{
+    color: #534C64;
+    font-size: 1.5rem;
+    text-align: right;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+.we-are-gamer-everyone{
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: right;
 }
