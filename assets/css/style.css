@@ -99,7 +99,7 @@ section{
 /* banner section style */
 .banner{
     background-image: url(../images/Group\ 14.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
 }
@@ -159,9 +159,7 @@ section{
 }
 /* we are gamer section style */
 .we-are-gamer{
-    background-image: url(../images/Group\ 14.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
     margin-top: 0;
 }
 .we-are-gamer-wrapper{
@@ -203,6 +201,10 @@ section{
     display: flex;
     justify-content: right;
     margin-bottom: 1.5rem;
+}
+#know-more-btn{
+    width: 208px;
+    padding: 21px 40px;
 }
 .we-are-gamer-purpose{
     color: #534C64;

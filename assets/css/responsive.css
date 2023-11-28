@@ -36,7 +36,7 @@
         width: 100%;
         margin-top: 3rem;
         background-image: url(../images/Group\ 14.png);
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
     }
     .banner-sub-title{
@@ -120,5 +120,73 @@
     }
     .menu{
         flex-direction: column;
+    }
+    /* banner section responsive in tablet device */
+    .banner{
+        width: 100%;
+        background-image: url(../images/Group\ 14.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .banner-content-inner{
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .banner-sub-title{
+        font-size: 2rem;
+    }
+    .banner-title{
+        font-size: 4.5rem;
+    }
+    .primary-btn{
+        width: 129px;
+        height: 60px;
+    }
+    .secondary-btn{
+        width: 129px;
+        height: 60px;
+    }
+    .banner-icon li a{
+        font-size: 1rem;
+    }
+    .banner-img-inner{
+        width: 100%;
+    }
+    .banner-img-inner img{
+        width: 100%;
+    }
+    /* we are gamer section responsive in mobile device */
+    .we-are-gamer{
+        margin-top: 2.25rem;
+    }
+    .we-are-gamer-wrapper{
+        flex-direction: column;
+    }
+    .we-are-gamer-img-inner{
+        width: 100%;
+        margin-bottom: 61px;
+    }
+    .we-are-gamer-content-inner{
+        width: 100%;
+    }
+    .we-are-gamer-title{
+        text-align: center;
+
+    }
+    .we-are-gamer-description{
+        text-align: center;
+    }
+    .know-more-btn-inner{
+        justify-content: center;
+    }
+    #know-more-btn{
+        width: 208px;
+        padding: 21px 40px;
+    }
+    .we-are-gamer-purpose{
+        text-align: center;
+    }
+    .we-are-gamer-everyone{
+        text-align: center;
     }
 }
