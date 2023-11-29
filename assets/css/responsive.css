@@ -98,6 +98,20 @@
         text-align: center;
         font-size: 18px;
     }
+    /* online game section responsive in mobile device */
+    .online-game-wrapper{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .online-game-title{
+        font-size: 1.25rem;
+    }
+    .online-game-description{
+        font-size: 14px;
+    }
+    .card-caption{
+        font-size: 12px;
+        text-align: center;
+    }
 }
 /* tablet device responsive  */
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -188,5 +202,9 @@
     }
     .we-are-gamer-everyone{
         text-align: center;
+    }
+    /* online game section responsive in tablet device */
+    .online-game-wrapper{
+        grid-template-columns: repeat(2, 1fr);
     }
 }
