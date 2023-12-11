@@ -112,6 +112,42 @@
         font-size: 12px;
         text-align: center;
     }
+    /* play game instantly no download section responsive in mobile device */
+    .play-game-instantly-wrapper{
+        flex-direction: column;
+        gap: 0;
+    }
+    .play-game-instanly-content-inner{
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+    .play-game-instanly-img-inner{
+        width: 100%;
+    }
+    .play-game-instantly-title{
+        text-align: center;
+    }
+    .play-game-instantly-description{
+        text-align: center;
+    }
+    .play-game-instanly-img-inner{
+        position: relative;
+    }
+    .play-game-instanly-img-sub-inner{
+        width: 80%;
+        position: absolute;
+        left: 17%;
+    }
+    .play-game-instanly-img-sub-inner img{
+        width: 100%;
+    }
+    .play-gamr-instanly-img-sub-inner-2{
+        width: 119px;
+        height: 135px;
+        position: absolute;
+        left: 1%;
+        top: 224px;
+    }
 }
 /* tablet device responsive  */
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -206,5 +242,41 @@
     /* online game section responsive in tablet device */
     .online-game-wrapper{
         grid-template-columns: repeat(2, 1fr);
+    }
+    /* play game instantly no download section responsive in tablet device */
+    .play-game-instantly-wrapper{
+        flex-direction: column;
+        gap: 0;
+    }
+    .play-game-instantly-title{
+        text-align: center;
+    }
+    .play-game-instantly-description{
+        text-align: center;
+    }
+    .play-game-instanly-content-inner{
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+    .play-game-instanly-img-inner{
+        width: 100%;
+    }
+    .play-game-instanly-img-inner{
+        position: relative;
+    }
+    .play-game-instanly-img-sub-inner{
+        width: 80%;
+        position: absolute;
+        left: 18%;
+    }
+    .play-game-instanly-img-sub-inner img{
+        width: 100%;
+    }
+    .play-gamr-instanly-img-sub-inner-2{
+        width: 250px;
+        height: 265px;
+        position: absolute;
+        left: 1%;
+        top: 450px;
     }
 }
