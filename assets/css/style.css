@@ -425,3 +425,30 @@ section.careers-section{
     width: 100%;
     height: 100%;
 }
+/* gaming section style start */
+.gaming-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.25rem;
+}
+.gamming-inner{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 10px 9px;
+    border-radius: 50px;
+    transition:0.25s;
+}
+#active-gamming-inner{
+    border: 1px solid #FF42A5;
+}
+.gamming-inner:hover{
+    border: 1px solid #FF42A5;
+}
+.gamming-inner p{
+    color: #FF42A5;
+    font-size: 16px;
+    font-weight: 600;
+}
+/* gaming section style end */
