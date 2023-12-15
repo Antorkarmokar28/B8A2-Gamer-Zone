@@ -417,6 +417,7 @@ section.careers-section{
     outline: 0;
     border: none;
     text-transform: uppercase;
+    cursor: pointer;
 }
 .careers-img-inner{
     width: 50%;
@@ -451,4 +452,78 @@ section.careers-section{
     font-size: 16px;
     font-weight: 600;
 }
-/* gaming section style end */
+/* footer style */
+footer.footer{
+    background-color: #0B0223;
+    margin-top: 120px;
+    padding: 3rem 0.5rem;
+}
+.footer-wrapper{
+    width: 70%;
+    margin: 0 auto;
+}
+.logo-inner{
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+h1.logo-text{
+    color: #FFFFFF;
+}
+.logo-inner{
+    width: 204px;
+}
+.logo-inner img{
+    width: 100%;
+}
+.footer-menu{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 31px;
+    margin-bottom: 4rem;
+}
+.footer-menu li{
+    list-style: none;
+    text-align: center;
+}
+.footer-menu li a{
+    color: #fff;
+    font-size: 18PX;
+    font-weight: 600;
+    text-decoration: none;
+}
+.footer-social-icon{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 31px;
+    margin-bottom: 4rem;
+}
+.footer-social-icon li{
+    list-style: none;
+    text-align: center;
+}
+.footer-social-icon li a{
+    color: #FFF;
+    font-size: 40px;
+}
+.footer-condition-menu{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 31px;
+    margin-bottom: 1.75rem;
+}
+.footer-condition-menu li{
+    list-style: none;
+    text-align: center;
+}
+.footer-condition-menu li a{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.copy-right{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}

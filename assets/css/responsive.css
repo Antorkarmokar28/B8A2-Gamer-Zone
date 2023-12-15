@@ -187,6 +187,25 @@
     .gamming-inner img{
         width: 25%;
     }
+    /* footer responsive in mobile device */
+    .footer-menu, .footer-social-icon{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-condition-menu{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-menu li a{
+        font-size: 12px;
+    }
+    .footer-social-icon li a{
+        font-size: 24px;
+    }
+    .footer-condition-menu li a{
+        font-size: 11px;
+    }
+    .copy-right{
+        font-size: 11px;
+    }
 }
 /* tablet device responsive  */
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -342,5 +361,15 @@
     }
     .careers-img-inner{
         width: 100%;
+    }
+       /* footer responsive in mobile device */
+       .footer-menu, .footer-social-icon{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-condition-menu{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .logo-inner img{
+        width: 35%;
     }
 }
