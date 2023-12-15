@@ -462,12 +462,19 @@ footer.footer{
     width: 70%;
     margin: 0 auto;
 }
-.logo-inner{
-    margin: 0 auto;
+.footer-logo-inner{
+    display: flex;
+    justify-content: center;
     margin-bottom: 4rem;
 }
-h1.logo-text{
+.footer-logo-inner img{
+    display: block;
+}
+h1#logo-text{
     color: #FFFFFF;
+    font-size: 2.75rem;
+    font-weight: 700;
+    cursor: pointer;
 }
 .logo-inner{
     width: 204px;
